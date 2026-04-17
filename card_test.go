@@ -8,6 +8,9 @@ import (
 func Example_maskCard() {
 	card := "4111111111111111"
 	fmt.Println(maskCard(card))
+
+	// Output:
+	// 4111 **** **** 1111
 }
 
 func Test_maskCard_Panic(t *testing.T) {
